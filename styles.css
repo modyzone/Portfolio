@@ -65,6 +65,14 @@ html {
 	color: white !important;
 }
 
+.btn:visited  {
+	color:rgba(255, 255, 255, 0.918);
+
+}
+.btn:hover {
+	background-color: #977c60;
+}
+
 .main-container {
 	margin-top: 20px;
 }
@@ -125,7 +133,7 @@ html {
 
 .text-about {
 	width: 360px;
-	padding: 40px 10px 10px 10px;
+	padding: 30px 10px 10px 10px;
 	position: relative;
   width: 400px;
   height: 200px;
@@ -409,8 +417,6 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 }
-
-
 
 
  body {
@@ -764,7 +770,12 @@ button:focus,
 }
 
 body {
-  background-color: rgb(255, 230, 0);
+  background-color: #e4ded7;
+}
+.collapse {
+	position: absolute;
+  left: 50px;
+  top: 10px;
 }
 
 @keyframes cloud-move-reverse {
